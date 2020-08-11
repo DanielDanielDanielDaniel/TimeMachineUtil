@@ -14,6 +14,9 @@
 		D8B78FE024E2844900E924D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B78FDF24E2844900E924D1 /* Assets.xcassets */; };
 		D8B78FE324E2844900E924D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B78FE124E2844900E924D1 /* LaunchScreen.storyboard */; };
 		D8B78FE624E2844900E924D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B78FE524E2844900E924D1 /* main.m */; };
+		D8B78FF324E2851400E924D1 /* NSCalendar+JSCCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B78FED24E2851400E924D1 /* NSCalendar+JSCCalendar.m */; };
+		D8B78FF424E2851400E924D1 /* TimeMachineUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B78FF124E2851400E924D1 /* TimeMachineUtil.m */; };
+		D8B78FF524E2851400E924D1 /* NSDate+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B78FF224E2851400E924D1 /* NSDate+BRAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,12 @@
 		D8B78FE224E2844900E924D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8B78FE424E2844900E924D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8B78FE524E2844900E924D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8B78FED24E2851400E924D1 /* NSCalendar+JSCCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+JSCCalendar.m"; sourceTree = "<group>"; };
+		D8B78FEE24E2851400E924D1 /* NSDate+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BRAdd.h"; sourceTree = "<group>"; };
+		D8B78FEF24E2851400E924D1 /* TimeMachineUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeMachineUtil.h; sourceTree = "<group>"; };
+		D8B78FF024E2851400E924D1 /* NSCalendar+JSCCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+JSCCalendar.h"; sourceTree = "<group>"; };
+		D8B78FF124E2851400E924D1 /* TimeMachineUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeMachineUtil.m; sourceTree = "<group>"; };
+		D8B78FF224E2851400E924D1 /* NSDate+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BRAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +70,7 @@
 		D8B78FD224E2844700E924D1 /* TimeMachineUtil */ = {
 			isa = PBXGroup;
 			children = (
+				D8B78FEC24E2851400E924D1 /* Classes */,
 				D8B78FD324E2844700E924D1 /* AppDelegate.h */,
 				D8B78FD424E2844700E924D1 /* AppDelegate.m */,
 				D8B78FD624E2844700E924D1 /* SceneDelegate.h */,
@@ -74,6 +84,19 @@
 				D8B78FE524E2844900E924D1 /* main.m */,
 			);
 			path = TimeMachineUtil;
+			sourceTree = "<group>";
+		};
+		D8B78FEC24E2851400E924D1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D8B78FED24E2851400E924D1 /* NSCalendar+JSCCalendar.m */,
+				D8B78FEE24E2851400E924D1 /* NSDate+BRAdd.h */,
+				D8B78FEF24E2851400E924D1 /* TimeMachineUtil.h */,
+				D8B78FF024E2851400E924D1 /* NSCalendar+JSCCalendar.h */,
+				D8B78FF124E2851400E924D1 /* TimeMachineUtil.m */,
+				D8B78FF224E2851400E924D1 /* NSDate+BRAdd.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +169,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8B78FF324E2851400E924D1 /* NSCalendar+JSCCalendar.m in Sources */,
 				D8B78FDB24E2844700E924D1 /* ViewController.m in Sources */,
+				D8B78FF424E2851400E924D1 /* TimeMachineUtil.m in Sources */,
 				D8B78FD524E2844700E924D1 /* AppDelegate.m in Sources */,
+				D8B78FF524E2851400E924D1 /* NSDate+BRAdd.m in Sources */,
 				D8B78FE624E2844900E924D1 /* main.m in Sources */,
 				D8B78FD824E2844700E924D1 /* SceneDelegate.m in Sources */,
 			);
